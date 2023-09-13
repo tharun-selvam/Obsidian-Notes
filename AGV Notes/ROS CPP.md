@@ -3,10 +3,9 @@
 **Resource** : [Link](https://www.youtube.com/watch?v=LkYrIQdQ6cI)
 
 1. Creating a node in cpp:
-	Certainly! Let's break down the code for the basic ROS node written in C++ step by step:
 	
 	```cpp
- #include <ros/ros.h> #include <std_msgs/String.h>
+		 #include <ros/ros.h> #include <std_msgs/String.h>
 	```
 	
 	- These lines include necessary ROS headers. `ros/ros.h` provides access to ROS functionality, and `std_msgs/String.h` is the header for the `std_msgs::String` message type, which we'll use for publishing messages.
