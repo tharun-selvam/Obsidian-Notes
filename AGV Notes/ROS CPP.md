@@ -1,6 +1,6 @@
 # ROS CPP 
 
-**Resource** : [Link](https://www.youtube.com/watch?v=LkYrIQdQ6cI)
+**Resource** : [Link](https://www.youtube.com/watch?v=LkYrIQdQ6cI), ChatGPT
 
 1. Creating a node in cpp:
 	
@@ -68,7 +68,7 @@
 	
 	- `rate.sleep();` causes the node to sleep for a duration that maintains the specified publishing rate (1 Hz in this case). It ensures that messages are published at a consistent rate.
 
-	In summary, this C++ code defines a simple ROS node that initializes a ROS node, creates a publisher, enters a loop to publish "Hello, ROS!" messages at a specified rate, and gracefully exits when the node is signaled to shut down (`ros::ok()` returns `false`). This is a basic template for a ROS node, and you can customize it to perform more complex tasks, such as subscribing to topics, processing data, and interacting with other ROS nodes in a robotic system.
+	In summary, this C++ code defines a simple ROS node that initializes a ROS node, creates a publisher, enters a loop to publish "Hello, ROS!" messages at a specified rate, and gracefully exits when the node is signaled to shut down (`ros::ok()` returns `false`). 
 
  2. Running the node:
 * Go into the `CMakeLists.txt` file and add the following 
