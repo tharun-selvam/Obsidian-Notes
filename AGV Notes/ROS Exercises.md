@@ -8,7 +8,7 @@
 		   `ln -s ~/git/smb_common <link-name>` 
 		 4. `source devel/setup.bash` inside `smb_ws`
 	* Launching:
-		1. The setup file must be sourced first
+		1. The setup file must be sourced first inside `smb_ws` 
 		2. `cd smb_ws/src/link/smb_gazebo`  and type `roslaunch smb_gazebo smb_gazebo.launch`
 	* Commanding the vehicle:
 		 1. The command can be sent to the the bot by publishing the topic `/cmd_vel`
@@ -22,7 +22,7 @@
 			3. `catkin_make` in `smb_ws` folder after sourcing `setup.bash` file.
 	   * Running:
 			1.  Source the setup file
-			2. Go into the teleop_link
+			2. Go into the teleop_link (symlink)
 			3. Run the command `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
 			4. For this, the `smb_gazebo` must have been running
 	   * Launch file:

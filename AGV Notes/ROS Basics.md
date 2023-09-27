@@ -302,7 +302,7 @@ if __name__ == '__main__':
 	- Set parameters and remap topics for nodes.
 	- Organize and manage the launch of nodes within ROS packages.
 	- Make it easier to launch complex robot systems with various configurations.
- * Wriiten with `.launch` extension in XML(preferred) or YAML
+ * Written with `.launch` extension in XML(preferred) or YAML
  * Written inside `workspace/src/package/launch` 
  1. Structure
 	- `<launch>`: The root element that encapsulates the entire launch file.

@@ -1,1 +1,16 @@
-{}
+{
+  "focusNewTab": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "smartIndentList": false,
+  "showIndentGuide": false,
+  "spellcheck": false,
+  "foldIndent": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "strictLineBreaks": false
+}
