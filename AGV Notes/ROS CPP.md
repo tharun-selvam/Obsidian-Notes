@@ -5,7 +5,7 @@
 1. Creating a node in cpp:
 	
 	```cpp
-		 #include <ros/ros.h> #include <std_msgs/String.h>
+ #include <ros/ros.h> #include <std_msgs/String.h>
 	```
 	
 	- These lines include necessary ROS headers. `ros/ros.h` provides access to ROS functionality, and `std_msgs/String.h` is the header for the `std_msgs::String` message type, which we'll use for publishing messages.

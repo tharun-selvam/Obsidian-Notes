@@ -33,6 +33,13 @@ rosdep install -i --from-path src --rosdistro foxy -y
 ```
 $ ros2 pkg create --build-type ament_python lab1_pkg rclpy ackermann_msgs
 ```
+
+## Node
+```python
+
+
+```
+
 ## Errors 
 1. Restarting the container:  The `-i` is important
 ```

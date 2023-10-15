@@ -13,22 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGV Notes/f1Tenth Lab1.md",
+                "file": "AGV Notes/ROS2 Simulation Setup.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "6bf1aeb2f1952a0b",
+        "type": "tabs",
+        "children": [
           {
-            "id": "3950aaf2cc87b836",
+            "id": "cc55893b21704be5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGV Notes/ROS Basics.md",
+                "file": "AGV Documentation.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -81,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "993321d2287fc486",
@@ -98,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AGV Notes/f1Tenth Lab1.md",
+                "file": "AGV Notes/ROS2 Simulation Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AGV Notes/f1Tenth Lab1.md",
+                "file": "AGV Notes/ROS2 Simulation Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGV Notes/f1Tenth Lab1.md"
+                "file": "AGV Notes/ROS2 Simulation Setup.md"
               }
             }
           },
@@ -171,26 +178,29 @@
   },
   "active": "9cd6724872416e6a",
   "lastOpenFiles": [
-    "AGV Notes/ROS Exercises.md",
-    "AGV Notes/ROS Basics.md",
-    "AGV Notes/ROS Tasks.md",
     "AGV Notes/ROS2 Basics.md",
-    "AGV Notes/AGV Timeline.md",
-    "AGV Notes/f1Tenth Lab1.md",
+    "AGV Notes/ROS Tasks.md",
+    "AGV Notes/ROS Exercises.md",
     "AGV Notes/ROS Navigation Course.md",
     "AGV Notes/ROS CPP.md",
+    "AGV Notes/ROS Basics.md",
     "AGV Notes/Python OOPS.md",
     "AGV Notes/Occupancy Grid.md",
     "AGV Notes/LAB 7 f1Tenth.md",
+    "AGV Notes/f1Tenth Lab1.md",
+    "CV.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "AGV Documentation.md",
+    "AGV Notes/AGV Timeline.md",
     "AGV Notes/Git Tasks.md",
+    "27.09.2023 AGV.md",
     "AGV Notes/Docker.md",
     "AGV Notes/ROS2 Simulation Setup.md",
     "AGV Notes/VIM.md",
-    "27.09.2023 AGV.md",
     "Meet reg. Intern.md",
     "Music Theory.md",
     "BEC Endsem.md",
-    "CV.md",
     "DP Pr.md",
     "AGV Notes/F1 Tenth 1.md",
     "Sample.md"
