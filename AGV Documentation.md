@@ -31,3 +31,33 @@
 # ROS Exercies
 1. Documentation + Notes
 	- [ROS Exercises Notes](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/ROS%20Exercises.md)
+
+
+## F1 Tenth
+1. Resources
+	- Docker:
+		- [Docker Intro + Tutorial](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=1330s)
+		- [Docker in 100s](https://www.youtube.com/watch?v=Gjnup-PuquQ)
+		- [Docker installation](https://www.youtube.com/watch?v=K03beiGemKQ) 
+		- [Docker Docs](https://docs.docker.com/)
+		- [Slides](https://docs.google.com/presentation/d/1nzzvHQuBJAqdjlPDUl0l2_rU-MAu8jctu1Gt66vlHHM/edit#slide=id.g10838dd9226_0_15)
+		- [FreeCodeCamp](https://www.freecodecamp.org/news/the-docker-handbook/)
+	- ROS 2
+		 - [YT](https://www.youtube.com/watch?v=Gg25GfA456o)
+		 - [Python OOPs](https://realpython.com/python-classes/#getting-started-with-python-classes)
+		 - [ROS Navigation Course](https://realpython.com/python-classes/#getting-started-with-python-classes)
+	- Occupancy Grid
+		- [Video](https://www.youtube.com/watch?v=1f_m5aJFIj4)
+		- [Repo](https://github.com/lukovicaleksa/grid-mapping-in-ROS/blob/main/papers/Building%20an%20Efficient%20Occupancy%20Grid%20Map%20Based%20on%20Lidar%20Data.pdf)
+		- [Bresenham's line algorithm](https://www.youtube.com/watch?v=h3gDB89h0os)
+
+2. Notes
+	- [Docker](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/Docker.md)
+	- [ROS 2 Basic](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/ROS2%20Basics.md) + [Python OOPS](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/Python%20OOPS.md)
+	- [ROS2 Sim](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/ROS2%20Simulation%20Setup.md)
+	- [LAB 1](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/f1Tenth%20Lab1.md)
+	- [ROS Navigation Course](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/ROS%20Navigation%20Course.md)
+	- [LAB 7](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/LAB%207%20f1Tenth.md) + [Occupancy Grid](https://github.com/tharun-selvam/Obsidian-Notes/blob/master/AGV%20Notes/Occupancy%20Grid.md) 
+  
+ 
+ 
