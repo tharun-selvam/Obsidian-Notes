@@ -1,0 +1,13 @@
+- Class Test 2 on a Wednesday. After the Pooja Holidays. One of the two wednesdays after DP.
+- Only BJT. (Chapter 6 and slightly from Chapter 5)
+- **End-Sem**: 9 questions fro 20marks. Each question 20marks.
+- Split b/w two parts. 
+	- Before midsem: 3Qs
+	- After midsem: 6Qs
+	- Some part of 6Qs may be based on BJT biasing
+- Chapter wise: 6, 3, 9
+	 - Chapter 9(2-2.5 questions)
+	 - Chapter 3(1-1.5 questions)
+	 - Chapter 5+6(3 questions)
+- Focus on tutorial sessions
+- Practise class test questions

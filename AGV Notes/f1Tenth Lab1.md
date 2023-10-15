@@ -27,10 +27,16 @@ docker run -it -v <absolute_path_to_this_repo>/lab1_ws/src/:/lab1_ws/src/ --name
 ```
 rosdep install -i --from-path src --rosdistro foxy -y
 ```
+
+## Creating Package (Alternate)
+1. Created package using `ament_python` which is much easier to work with
+```
+$ ros2 pkg create --build-type ament_python lab1_pkg rclpy ackermann_msgs
+```
 ## Errors 
 1. Restarting the container:  The `-i` is important
 ```
-sudo docker container run -i f1tenth_lab1
+sudo docker container start -i f1tenth_lab1
 ```
 
 2. Couldn't install `ackermann_msgs` dependency. 
@@ -39,4 +45,4 @@ sudo docker container run -i f1tenth_lab1
 rosdep install -i --from-path src --rosdistro foxy -y
 ```
 
-## Problems 
+

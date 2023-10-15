@@ -12,7 +12,7 @@
 		2. `cd smb_ws/src/link/smb_gazebo`  and type `roslaunch smb_gazebo smb_gazebo.launch`
 	* Commanding the vehicle:
 		 1. The command can be sent to the the bot by publishing the topic `/cmd_vel`
-		   2. We can do that by `rostopic pub /cmd_vel <press-double-TAB>`
+		 2. We can do that by `rostopic pub /cmd_vel <press-double-TAB>`
 		 3. Pressing the double TAB would autocomplete the parameters
 
   1. Part 2 
@@ -49,5 +49,56 @@
   
 ## Exercise 2 [Link](https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2021/lec2/Exercise%20Session%202.pdf)
 
-1.  
+1.  Downloaded `smb_highlevel_controller` 
+2. Subscriber to scan topic:
+```python
+#!/usr/bin/env/ python3 
+import rospy
+from sensor_msgs.msg import LaserScan
+
+def scan_callback(msg: LaserScan): 
+	rospy.loginfo(msg)
+
+if __name__ == '__main__':
+	rospy.init_node("scan_subscriber")
+
+	topic_name = rospy.get_param("topic_name", "/scan")
+	queue_size = rospy.get_param("queue_size", 10)
+
+	sub = rospy.Subscriber(topic_name, LaserScan, callback=scan_callback) 
+
+	rospy.loginfo("Node has been started")
+	rospy.spin()
+```
+
+3. `src/smb_highlevel_controller/config/config.yaml`
+```yaml
+topic_name : "/scan"
+queue_size : 10
+```
+
+4. Launch file inside `src/smb_highlevel_controller/launch/smb_launch.launch`
+```xml
+<launch>
+	<node name="scan_subscriber" pkg="smb_highlevel_controller" type="">
+		<rosparam command="load" file="$(find smb_highlevel_controller)/config/config.yaml" />
+	</node>
+
+</launch>
+```
+
+5. Modified launch file
+```xml
+<launch>
+	<include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+		<arg name="world_file" value="($find smb_gazebo)/worlds/big_map_summer_school.world" />
+		<arg name="laser_enabled" value=true/>
+	</include>
+
+	<node name="scan_subscriber" pkg="smb_highlevel_controller" type="">
+		<rosparam command="load" file="$(find smb_highlevel_controller)/config/config.yaml" />
+	</node>
+			
+</launch>
+```
 

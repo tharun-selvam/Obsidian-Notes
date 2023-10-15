@@ -1,0 +1,7 @@
+- HTML, CSS, Javascript, ReactJS
+- Unity, C#, Made own game
+- Winter School, OpenCV
+- AGV, ARK Tasks
+- Neuromatch, Coursera
+- IISC Robonautica
+- 

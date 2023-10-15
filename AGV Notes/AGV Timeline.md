@@ -5,6 +5,9 @@
 4. Completed ROS Tasks [Notes](obsidian://open?vault=Obsidian&file=AGV%20Notes%2FROS%20Tasks)
 5. ROS Exercises [Notes](obsidian://open?vault=Obsidian&file=AGV%20Notes%2FROS%20Exercises)
 6. Docker 
+7. Learnt ROS 2
+8. Implemented `gmapping` and `amcl` for RRRC competition
+
 
 ## Resources provided
 1. [Peers Documentation](https://docs.google.com/spreadsheets/d/1RTwxLD6PpMw9lOPVuxmDsVmEJkETGmG12yftiLu8elg/edit#gid=0)

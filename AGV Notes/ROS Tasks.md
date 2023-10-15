@@ -1,3 +1,4 @@
+
 ## Task 1
 * We can create a topic of any name with a message in it (as seen in code snippet 1)
 * We can also write custom messages [Link](https://www.youtube.com/watch?v=baAE0i8Rzvg)
@@ -57,3 +58,40 @@ if __name__ == '__main__':
 	```
 
  2. ROS Bags
+ ```
+ rosbag record -a -o my_bagfile.bag
+```
+- **Important**: The file must end with `.bag`
+
+3. Extract info out of ROS Bags
+- `rosbag play my_bagfile.bag /cmd_vel `  will publish the topic `/cmd_vel` which will be subscribed by the node `ros_bag_subscriber.py`
+
+4. Adding Gaussian Noise
+
+```python
+#!/usr/bin/env/ python3 //setups the environment for python
+import rospy
+from std_msgs.msg import Twist
+
+def twist_callback(msg: Twist):
+	mean = 0
+	std_dev = .01 
+	noise = np.random.normal(mean, std_dev, 3)
+	
+	new_msg = Twist()
+	new_msg.x = msg.x + noise[0]
+	new_msg.y = msg.y + noise[1]
+	new_msg.z = msg.z + noise[2]
+
+	pub.Publish(new_msg)
+
+if __name__ == '__main__':
+    rospy.init_node("ros_bag_subscriber")
+
+    sub = rospy.Subscriber("/cmd_vel", Twist, callback=twist_callback)
+	pub = rospy.Publisher("/my_topic", Twist, queue_size = 10)
+
+    rospy.loginfo("Gaussian Node started")
+    rospy.spin()
+
+```
